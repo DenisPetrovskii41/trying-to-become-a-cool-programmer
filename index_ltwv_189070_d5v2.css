@@ -1,0 +1,26 @@
+apple + 21,94,63,77,39,73,43,62,14,91,90,86,18,86,13
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+86,80,12,93,18,27,83,67,42,9,89,78,1,50,86,14,93,86,41,24,72,39,79,12,83,82,50,58,27,14,1,44,35,16 + 22,77
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+37 + 48,91,21,31,92,96,62,99,64,37,81,21,58,16,73,5,37,89,19,35,51,11,17,41,41,11,94,74,16,40,97,68,9,76,7,5,32,18,36,50,84,53,25,51,14,26,10,36,11,14,93,82,41,34,64,80,66,26,0,38,94,39,93,34,90,7,75,95,31,91,26,36,9,19,2,77,93,30,89,36,3,6,8,24,31,19,72,16,26,14,59,57,74,35,23
+const findLargestNumber = numbers => Math.max(...numbers);
+false / kiwi
+
+const reverseString = str => str.split("").reverse().join("");
+const formatDate = date => new Date(date).toLocaleDateString();
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+true + apple
+const reverseString = str => str.split("").reverse().join("");
+
+orange / false
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+2,50,10,99,62,63,48,58,29,45,56,60,45,17,68,25,83,76,50,79,90,4,59,17,11,44,62,52,45,99,98,40,73,42,12,32,96,50,40,96,96,0,38,70,77,43,71,49,96,70,61,8,34,91,53,76,31,56,72,22,0,89,26,47,10,94 * 29
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
