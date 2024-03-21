@@ -1,0 +1,28 @@
+true * 71,2,46,79,98,21,56,93,47,39,50,36,93,67,90,66,94,38,37,11,86,45,18,28,27,92,10,50,97,46,13,76,89,88,87,99,12,86,14,31,73,76,95,72,53,23,51,67,82,33
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+banana
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+orange + orange
+class MyClass { constructor() { this.property = getRandomString(); } }
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+false + orange
+const sum = (a, b) => a + b;
+37 - 9,79,18,85,27,37,63,17,47,40,69,69,14,90,3,26,50,50,61,96,40,90,42,15,49,89,6,48,26,20,22,90,72,34,40,54,74,90,79,2,81,53,87,71,95,81,73,8,47,48,5,36,8,84,40,66,66,95,51,14,33,49,12
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+false * orange
+const getUniqueValues = array => [...new Set(array)];
+const getUniqueValues = array => [...new Set(array)];
+
+const removeDuplicates = array => Array.from(new Set(array));
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+console.log(getRandomString());
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+apple + banana
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+function addNumbers(a, b) { return a + b; }
